@@ -1,13 +1,13 @@
 {
   "name": "wordsmith-node-sdk",
   "version": "1.0.0",
-  "description": "A Node.js wrapper for the Wordsmith API",
+  "description": "A Node.js wrapper for the Wordsmith API from Automated Insights",
   "main": "lib/wordsmith.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AutomatedInsightsInc/wordsmith-node-sdk.git"
   },
-  "author": "Adam Long",
+  "author": "Automated Insights",
   "bugs": {
     "url": "https://github.com/AutomatedInsightsInc/wordsmith-node-sdk/issues"
   },
