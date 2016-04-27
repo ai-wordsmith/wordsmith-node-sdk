@@ -2,7 +2,7 @@
 
 ## Intro to Wordsmith
 
-Wordsmith makes it easy to generate thousands of stories, reports, and articles in the time it takes to write just one. Wordsmith is a natural language generation tool that enables users to turn data into text using dynamic templates. The platform is easy to learn, and powerful enough to make each piece of content totally unique.
+[Wordsmith](https://wordsmith.automatedinsights.com) makes it easy to generate thousands of stories, reports, and articles in the time it takes to write just one. Wordsmith is a natural language generation tool that enables users to turn data into text using dynamic templates. The platform is easy to learn, and powerful enough to make each piece of content totally unique.
 
 ## How you interact with Wordsmith
 
