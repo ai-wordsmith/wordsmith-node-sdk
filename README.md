@@ -9,7 +9,7 @@
 The Wordsmith API allows developers to generate new content using the Templates created in the Wordsmith web app by users at your company. Developers can use the API to send new data which will trigger the generation of new text content. You have complete control over when you generate and use the content.
 
 ## Installation
-Run `npm install wordsmith --save-dev` in your console.
+Run `npm install wordsmith --save` in your console.
 
 ## Usage
 
