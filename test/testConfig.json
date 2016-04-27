@@ -1,0 +1,17 @@
+{
+  "key": "923b278a6088675262af64ceb437bab31d7ebc6b07aaf89f88b0b88dd4fe2a97",
+  "userAgent": "official-node-sdk-test",
+  "testProjectSlug": "test",
+  "testTemplateSlug": "test",
+  "testData": { "a":1, "b":2, "c":3 },
+  "testProject": {
+    "name": "Test",
+    "slug": "test",
+    "templates": [
+      {
+        "name": "Test",
+        "slug": "test"
+      }
+    ]
+  }
+}
