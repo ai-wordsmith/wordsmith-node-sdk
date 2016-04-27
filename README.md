@@ -136,9 +136,9 @@ wordsmith.projects.find('YOUR_PROJECT_SLUG')
 Data object example:
 
     {
-      a: "Number",
-      b: "Number",
-      c: "Number"
+      a: 1,
+      b: 2,
+      c: 3
     }
 */
 ```
