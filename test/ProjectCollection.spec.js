@@ -55,7 +55,7 @@ describe('Projects', function() {
 
     it('should find data schema for a project', function() {
       return expect( wordsmith.projects.find(testProjectSlug).then(function(project) {
-        return project.schema();
+        return project.schema;
       }) )
         .to.eventually.be.deep.equal(
         {

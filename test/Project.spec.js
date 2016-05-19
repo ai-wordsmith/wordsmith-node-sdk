@@ -22,21 +22,12 @@ describe('Project', function () {
     it('should create a project object', function() {
       var p =  new Project(testProject, apiClient);
       expect( p ).to.be.a('object');
-      expect( p ).to.respondTo('schema');
       expect( p ).to.have.property('templates');
       expect( p ).to.have.property('name');
       expect( p ).to.have.property('slug');
       expect( p ).to.have.property('api');
-    });
-
-  });
-
-  describe('Schema', function() {
-
-    it('should return the schema of a project', function() {
-      var p = new Project(testProject, apiClient);
-      expect( p ).to.respondTo('schema');
-      return expect( p.schema() ).to.eventually.be.deep.equal(
+      expect( p ).to.have.property('schema');
+      expect( p.schema ).to.be.deep.equal(
       {
         a: "Number",
         b: "Number",
