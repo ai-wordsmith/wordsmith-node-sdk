@@ -7,6 +7,7 @@
   "testProject": {
     "name": "Test",
     "slug": "test",
+    "schema": { "a": "Number", "b": "Number", "c": "Number" },
     "templates": [
       {
         "name": "Test",

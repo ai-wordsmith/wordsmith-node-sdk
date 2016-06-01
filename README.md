@@ -59,7 +59,7 @@ Returns a the data schema of a specific Project. The data schema details the dat
 ```javascript
 wordsmith.projects.find('YOUR_PROJECT_SLUG')
   .then(function(project) {
-    return project.schema();
+    return project.schema;
   })
   .then(function(schema) {
     // do something with schema
@@ -115,7 +115,7 @@ wordsmith.projects.find('YOUR_PROJECT_SLUG')
 
 ### Generate Content
 
-Turns data into narrative content. Data should be in the form of an object with keys for each data variable your Template uses. To see which keys are required, look at the data schema returned by `project.schema()` above.
+Turns data into narrative content. Data should be in the form of an object with keys for each data variable your Template uses. To see which keys are required, look at the data schema returned by `project.schema` above.
 
 ```javascript
 wordsmith.projects.find('YOUR_PROJECT_SLUG')
