@@ -145,7 +145,7 @@ Data object example:
 
 ## Development
 
-Run tests using `mocha` from the root of the repo.
+Run tests using `npm test` from the root of the repo.
 
 ## Contributing
 
