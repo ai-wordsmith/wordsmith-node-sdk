@@ -46,4 +46,25 @@ describe('Template', function() {
 
   });
 
+  describe('test()', function() {
+
+    it('should test test endpoint', function() {
+      expect( t ).to.respondTo('test');
+      return expect( t.test(testData) ).to.eventually.equal('Generation successful');
+    });
+
+    it('should test content', function() {
+      t.test({}).catch(function(err) {
+        expect(err).to.be.a('Error')
+      });
+    });
+
+    it('should error if invalid args', function() {
+      t.test().catch(function(err) {
+        expect(err).to.be.a('Error')
+      });
+    });
+
+  });
+
 });
