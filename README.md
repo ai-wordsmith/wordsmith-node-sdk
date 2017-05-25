@@ -143,6 +143,36 @@ Data object example:
 */
 ```
 
+### Test Generate Content
+
+Test your implementation of the generate content function. Will return with an error or a success message and will not bill your organization.
+
+```javascript
+wordsmith.projects.find('YOUR_PROJECT_SLUG')
+  .then(function(project) {
+    return project.templates.find('YOUR_TEMPLATE_SLUG');
+  })
+  .then(function(template) {
+    return template.test(YOUR_DATA_OBJECT);
+  })
+  .then(function(content) {
+    // do something with content
+  })
+  .catch(function(error) {
+    // deal with errors
+  });
+
+/*
+Data object example:
+
+    {
+      a: 1,
+      b: 2,
+      c: 3
+    }
+*/
+```
+
 ## Development
 
 Run tests using `npm test` from the root of the repo.
